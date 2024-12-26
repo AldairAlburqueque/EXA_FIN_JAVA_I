@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE xml>
+
+<taglib>
+	<tlibversion>1.0</tlibversion>
+	<jspversion>2.0</jspversion>
+	<uri>misEtiquetas</uri>
+	
+	<tag>
+		<name>tagText</name>
+		<tag-class>etiquetas.TituloStyleTag</tag-class>
+		<body-content>false</body-content>
+	</tag>
+	<tag>
+		<name>tagCustomText</name>
+		<tag-class>etiquetas.TituloCustomTag</tag-class>
+		<body-content>false</body-content>
+		<attribute>
+			<name>text</name>
+			<required>true</required>
+		</attribute>
+		<attribute>
+			<name>size</name>
+			<required>true</required>
+		</attribute>
+		<attribute>
+			<name>color</name>
+			<required>true</required>
+		</attribute>
+	</tag>
+</taglib>
